@@ -1,0 +1,58 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1.5rem;
+    width: 80vw;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+div {
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+header, footer, nav {
+    background-color: lightcoral;
+    padding: 1rem;
+
+}
+
+section {
+    display: flex;
+    gap: 2rem;
+}
+
+section > div:nth-child(1) {
+    flex-grow: 1;
+}
+
+section > div:nth-child(2) {
+    flex-grow: 2;
+}
+
+section > div {
+    background-color: salmon;
+    height: 500px;
+}
+
+nav {
+    height: 70px;
+}
+header {
+    height: 150px;
+}
+
+footer {
+    height: 100px;
+}
