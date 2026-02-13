@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Result Table</title>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style >
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   td {
+    padding: 1rem 2rem;
+   }
+   .title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+   }
+  </style>
+</head>
+<body>
+  <h1 class="title">Create School Result Table</h1>
+  <table border="1" cellspacing="0">
+    <caption>School Examination Result</caption>
+    <tr>
+      <th rowspan="2">Roll No.</th>
+      <th rowspan="2">Name</th>
+      <th colspan="3"> Subject</th>
+      <th rowspan="2">Total</th>
+      <th rowspan="2">Percentage</th>
+    </tr>
+    <tr>
+      <th>Math</th>
+      <th>Science</th>
+      <th>English</th>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Rahul</td>
+      <td>85</td>
+      <td>78</td>     
+      <td>90</td>
+      <td>235</td>
+      <td>84.3%</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>Ashish</td>
+      <td>85</td>
+      <td>78</td>     
+      <td>90</td>
+      <td>235</td>
+      <td>84.3%</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>Ashutosh</td>
+      <td>85</td>
+      <td>78</td>     
+      <td>90</td>
+      <td>235</td>
+      <td>84.3%</td>
+    </tr>
+  </table>
+
+</body>
+</html>
